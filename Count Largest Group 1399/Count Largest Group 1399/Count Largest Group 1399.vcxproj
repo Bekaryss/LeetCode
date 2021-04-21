@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{40e8bd5d-10af-474f-b024-c592e70067c4}</ProjectGuid>
-    <RootNamespace>indNUniqueIntegersSumuptoZero1304</RootNamespace>
+    <ProjectGuid>{e01f811b-503a-48d7-ac8c-551fb8610497}</ProjectGuid>
+    <RootNamespace>CountLargestGroup1399</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ind N Unique Integers Sum up to Zero 1304.cpp" />
+    <ClCompile Include="Count Largest Group 1399.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

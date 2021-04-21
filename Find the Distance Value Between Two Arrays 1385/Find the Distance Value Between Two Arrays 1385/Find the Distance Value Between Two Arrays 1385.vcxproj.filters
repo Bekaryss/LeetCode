@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ind N Unique Integers Sum up to Zero 1304.cpp">
+    <ClCompile Include="Find the Distance Value Between Two Arrays 1385.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

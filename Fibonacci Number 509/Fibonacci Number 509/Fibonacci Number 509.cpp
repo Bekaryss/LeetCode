@@ -1,4 +1,4 @@
-// ind N Unique Integers Sum up to Zero 1304.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Fibonacci Number 509.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
@@ -6,30 +6,23 @@
 
 using namespace std;
 
-void Print(vector<int> res) {
-	for (int i : res) {
-		cout << i << " ";
-	}
-	cout << endl;
-}
-
-vector<int> sumZero(int n) {
-	int mid = n / 2;
-	vector<int> res;
-	for (int i = mid, j = -mid; i > 0 && j < 0; i--, j++) {
-		res.push_back(i);
-		res.push_back(j);
-	}
-	if (res.size() < n) {
-		res.push_back(0);
+int fib(int n) {
+	int first = 0;
+	int second = 1;
+	for (int i = 0; i < n; i++) {
+		int temp = second;
+		second = first + second;
+		first = temp;
 	}
 
-	return res;
+	return first;
 }
 
 int main()
 {
-	Print(sumZero(5));
+	std::cout << fib(2) << endl;
+	std::cout << fib(3) << endl;
+	std::cout << fib(4) << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
